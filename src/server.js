@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const app = express();
-let server = app.listen(3000, () => {
+const server = app.listen(3000, () => {
     console.log("server is running on port", server.address().port);
 });
 const io = require('socket.io')(server);
