@@ -1,0 +1,22 @@
+{
+  "name": "live-messaging",
+  "version": "1.0.0",
+  "description": "Live messaging app playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "live-messaging"
+  },
+  "author": "Kevin Trisnadi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "http": "0.0.1-security",
+    "mongoose": "^6.1.4",
+    "socket.io": "^4.4.0"
+  }
+}
